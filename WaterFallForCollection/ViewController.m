@@ -31,13 +31,13 @@ CGFloat const kImgCount = 47;
         NSMutableArray *muArr = [NSMutableArray array];
         for (NSInteger i = 1; i < kImgCount; i++) {
 //            UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"image%@", @(i)]];
-            float rp = arc4random_uniform((u_int32_t)255) ;
+            float rp = arc4random_uniform((u_int32_t)255);
             float gp = arc4random_uniform((u_int32_t)255);
             float bp = arc4random_uniform((u_int32_t)255);
             float r = rp / 255;
             float g = gp / 255;
             float b = bp / 255;
-            NSLog(@"%f, %f, %f", r, g, b);
+//            NSLog(@"%f, %f, %f", r, g, b);
             UIImage *image = [UIColor imageWithColor:[UIColor colorWithRed:r green:g blue:b alpha:1.0]];
             [muArr addObject:image];
         }
