@@ -13,6 +13,10 @@
 		049167181C12D4B4000C8D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049167161C12D4B4000C8D01 /* Main.storyboard */; };
 		0491671A1C12D4B4000C8D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049167191C12D4B4000C8D01 /* Assets.xcassets */; };
 		0491671D1C12D4B4000C8D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491671B1C12D4B4000C8D01 /* LaunchScreen.storyboard */; };
+		049167261C12DBFD000C8D01 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167251C12DBFD000C8D01 /* WaterFallFlowLayout.m */; };
+		049167291C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049167281C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.m */; };
+		04E0953B1DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0953A1DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.m */; };
+		04E095411DCCF35D00DD97FE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E095401DCCF35D00DD97FE /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		049167191C12D4B4000C8D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0491671C1C12D4B4000C8D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0491671E1C12D4B4000C8D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049167241C12DBFD000C8D01 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		049167251C12DBFD000C8D01 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
+		049167271C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallCellCollectionViewCell.h; sourceTree = "<group>"; };
+		049167281C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallCellCollectionViewCell.m; sourceTree = "<group>"; };
+		04E095391DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		04E0953A1DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		04E0953F1DCCF35D00DD97FE /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		04E095401DCCF35D00DD97FE /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,18 @@
 		0491670C1C12D4B4000C8D01 /* WaterFallForCollection */ = {
 			isa = PBXGroup;
 			children = (
+				04E0953F1DCCF35D00DD97FE /* UIColor+Extension.h */,
+				04E095401DCCF35D00DD97FE /* UIColor+Extension.m */,
+				04E095391DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.h */,
+				04E0953A1DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.m */,
 				049167101C12D4B4000C8D01 /* AppDelegate.h */,
 				049167111C12D4B4000C8D01 /* AppDelegate.m */,
 				049167131C12D4B4000C8D01 /* ViewController.h */,
 				049167141C12D4B4000C8D01 /* ViewController.m */,
+				049167241C12DBFD000C8D01 /* WaterFallFlowLayout.h */,
+				049167251C12DBFD000C8D01 /* WaterFallFlowLayout.m */,
+				049167271C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.h */,
+				049167281C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.m */,
 				049167161C12D4B4000C8D01 /* Main.storyboard */,
 				049167191C12D4B4000C8D01 /* Assets.xcassets */,
 				0491671B1C12D4B4000C8D01 /* LaunchScreen.storyboard */,
@@ -149,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049167291C12E5EC000C8D01 /* WaterFallCellCollectionViewCell.m in Sources */,
+				049167261C12DBFD000C8D01 /* WaterFallFlowLayout.m in Sources */,
 				049167151C12D4B4000C8D01 /* ViewController.m in Sources */,
+				04E095411DCCF35D00DD97FE /* UIColor+Extension.m in Sources */,
 				049167121C12D4B4000C8D01 /* AppDelegate.m in Sources */,
 				0491670F1C12D4B4000C8D01 /* main.m in Sources */,
+				04E0953B1DCCEC0000DD97FE /* UIButton+EnlargeTouchArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +322,7 @@
 				049167231C12D4B4000C8D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

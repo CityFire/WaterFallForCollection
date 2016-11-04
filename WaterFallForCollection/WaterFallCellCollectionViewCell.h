@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WaterFallCellCollectionViewCell.h
 //  WaterFallForCollection
 //
 //  Created by wjc on 15/12/5.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UICollectionViewDelegate,UICollectionViewDataSource>
+@interface WaterFallCellCollectionViewCell : UICollectionViewCell
 
-
-
+@property (nonatomic, strong) UIImage *image;
 
 @end
-
